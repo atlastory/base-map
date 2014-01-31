@@ -2,7 +2,7 @@
 
 __Atlastory is the visualization of history on a map.__ The goal is to create a free interactive web map that spans all of history, with the ability to see what the world looked like 20, 50, or 1,000 years+ in the past. For further discussion and collaboration outside of GitHub, visit [forum.atlastory.com](http://forum.atlastory.com/).
 
-This is the Atlastory Base Map, a political and cultural map that spans human history.
+This is the Atlastory Base Map, a political and cultural map that spans human history. To contribute, Fork the repo and issue a pull request.
 
 ## Structure:
 
