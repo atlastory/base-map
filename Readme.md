@@ -14,18 +14,18 @@ Please read the [Contributor Agreement](Agreement.md) before making any contribu
 ```
 ├── africa
 ├── asia
-│   ├── a1-sovereignty
+│   ├── admin-1
 │   │   ├── 1871-1900.geojson
 │   │   └── 1900-1910.geojson
-│   └── a2-province
+│   └── admin-2
 │       └── 1900-1920.geojson
 ├── central-america
 └── central-asia
 ```
 
 1. __Regions__ — the region of the world
-2. __Types__ — each folder is a map type (i.e. countries, states, cities, highways, etc.).
-3. __Time periods__ — each type folder has GeoJSONs representing the time period for that data. Periods can be changed to whatever necessary as the map data changes over time.
+2. __Types__ — each folder is a map type level
+3. __Time periods__ — each type folder has GeoJSONs representing the time period for that data
 
 ### (1) Regions
 
@@ -46,18 +46,19 @@ General split lines:
 
 Each region will later be combined to form a global map. So the split doesn't need to be exactly down these lines -- as long as 2 GeoJSON files in the same period don't replicate a shape. So Ukraine can be included in `central-asia` in one period and `europe` in another.
 
-### (2) Shape types (__Shape type__ — `name(s)`)
+### (2) Shape types (`level-name` *object type* — Shape type(s))
 
-* __Admin 1: Sovereign political boundaries__ — `a1-sovereignty`
-* __Admin 2__ — `a2-state`,`a2-province`,`a2-republic`
-* __Admin 3__ — `a3-county`
-* __City__ — `city`
+* `admin-1` *polygon* — sovereignty, dependency, country
+* `admin-2` *polygon* — state, province, republic, ...
+* `admin-3` *polygon* — county, ...
+* `settlement` *point* — city, town, village
 
 ### (3) Time periods (GeoJSON)
 
 * Must be in __GeoJSON__ format (projection is always WGS 84 (4326))
 * Periods can be __any length__ in 1-year intervals.
 * Years begin and end on __January 1__. So the file `1940-1945` goes from January 1, 1940 to January 1, 1945. The file `1945-1946` spans the one-year period January 1, 1945 to January 1, 1946.
+* Periods can be changed to whatever necessary as the map data changes over time.
 * Periods should __never overlap__ within the same type.
 	* Correct:  `1850-1855`, `1855-1861`, `1861-1864`, `1875-1880`
 	* Incorrect: `1850-1855`, `1853-1861`, `1860-1864`, `1875-1880`
@@ -67,7 +68,7 @@ Each region will later be combined to form a global map. So the split doesn't ne
 * `name` full name
 * `name_md` medium name abbreviation <= 17 characters
 * `name_sm` short name abbreviation <=5 characters
-* `type` see '__Shape types__' above
+* `type` see '__Shape types__' above (sovereignty, city, etc.)
 * `sovereignty` full name of sovereign country (if applicable)
 * `description`
 * `date_start` specific start date of object (if present)
