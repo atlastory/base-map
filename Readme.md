@@ -48,7 +48,7 @@ Each region will later be combined to form a global map. So the split doesn't ne
 
 ### (2) Shape types (`level-name` *object type* — Shape type(s))
 
-* `admin-1` *polygon* — sovereignty, dependency, country
+* `admin-1` *polygon* — sovereignty, country, dependency, colony
 * `admin-2` *polygon* — state, province, republic, ...
 * `admin-3` *polygon* — county, ...
 * `settlement` *point* — city, town, village
