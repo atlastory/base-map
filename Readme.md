@@ -4,52 +4,75 @@ __Atlastory is the visualization of history on a map.__ The goal is to create a 
 
 This is the Atlastory Base Map, a political and cultural map that spans human history. To contribute, Fork the repo and issue a pull request.
 
-## Structure:
+---------------------------------------
+## Contributing
 
-* __Layers__ -- each folder is a map layer (i.e. countries, states, cities, highways, etc.).
-* __Time periods__ -- each layer folder contains time periods for that data. Periods can be any length in 1-year intervals. Period folders can be changed to whatever necessary as the map data changes over time. (Years begin and end on January 1. So the folder '1940-1945' goes from January 1, 1940 to January 1, 1945.)
-* __Map data__ -- in each period folder, there should be up to 10 GeoJSON files that contain the geometry for that layer/period. Projection is always WGS 84 (4326).
+Please read the [Contributor Agreement](Agreement.md) before making any contributions. Below is more detail on the structure of this repo and the base map in general.
 
-GeoJSON split:
+### Structure:
 
-1. `north-america.geojson`: North America (+Greenland)
-2. `central-america.geojson`: Central America (+Caribbean)
-3. `south-america.geojson`: South America
-4. `africa.geojson`: Africa
-5. `europe.geojson`: Europe
-6. `middle-east.geojson`: Middle East
-7. `central-asia.geojson`: Central Asia (+Russia)
-8. `asia.geojson`: Asia (+Southeast Asia)
-9. `oceania.geojson`: Australia, NZ, Pacific
-10. `antarctica.geojson` : Antarctica
+```
+├── africa
+├── asia
+│   ├── admin-1
+│   │   ├── 1871-1900.geojson
+│   │   └── 1900-1910.geojson
+│   └── admin-2
+│       └── 1900-1920.geojson
+├── central-america
+└── central-asia
+```
 
-# Contributor Terms
+1. __Regions__ — the region of the world
+2. __Types__ — each folder is a map type level
+3. __Time periods__ — each type folder has GeoJSONs representing the time period for that data
 
-By issuing a pull request to this repository, you agree to the following:
+### (1) Regions
 
-Thank you for your interest in contributing data and/or any other content (collectively, 'Contents') to the geo-database of the Atlastory map (the 'Map'). This contributor agreement (the 'Agreement') is made between you ('You') and Atlastory, Inc. ('Atlastory') and clarifies the intellectual property rights in any Contents that You choose to submit to the Map in this user account. Please read the following terms and conditions carefully and click either the 'Accept' or 'Decline' button at the bottom to continue.
+General split lines:
 
-### Introduction
+![](./_img/regions.png?raw=true)
 
-We respect the intellectual property rights of others and we need to be able to respond to any objections by intellectual property owners. This means that:
+1. `north-america`: North America (+Greenland)
+2. `central-america`: Central America (+Caribbean)
+3. `south-america`: South America
+4. `africa`: Africa
+5. `europe`: Europe
+6. `middle-east`: Middle East
+7. `central-asia`: Central Asia (+Russia)
+8. `asia`: Asia (+Southeast Asia)
+9. `oceania`: Australia, NZ, Pacific
+10. `antarctica` : Antarctica
 
-1. Your contribution of data should not infringe the intellectual property rights of anyone else. If you contribute Contents, You are indicating that, as far as You know, You have the right to authorize Atlastory to use and distribute those Contents under our current licence terms. If You do not have that right, You risk having Your contribution deleted (see below).
-2. Please note that Atlastory does not have to include Contents You contribute to the Map, and may remove Your contributions from the Map at any time. For example, if we suspect that any contributed data is incompatible, (in the sense that we could not continue to lawfully distribute it), with whichever licence or licences we are then using, then we may delete that data.
+Each region will later be combined to form a global map. So the split doesn't need to be exactly down these lines -- as long as 2 GeoJSON files in the same period don't replicate a shape. So Ukraine can be included in `central-asia` in one period and `europe` in another.
 
-### Rights Granted
+### (2) Shape types (`level-name` *object type* — Shape type(s))
 
-1. You hereby grant to Atlastory a worldwide, royalty-free, non-exclusive, perpetual, irrevocable licence to do any act that is restricted by copyright, database right or any related right over anything within the Contents, whether in the original medium or any other. These rights explicitly include commercial use, and do not exclude any field of endeavour. These rights include, without limitation, the right to sub-license the work through multiple tiers of sub-licensees and to sue for any copyright violation directly connected with Atlastory’s rights under these terms. To the extent allowable under applicable local laws and copyright conventions, You also waive and/or agree not to assert against Atlastory or its licensees any moral rights that You may have in the Contents.
-2. At Your or the copyright owner’s option, Atlastory agrees to attribute You or the copyright owner. A mechanism will be provided for this ability.
-3. Except as set forth herein, You reserve all right, title, and interest in and to Your Contents.
+* `admin-1` *polygon* — sovereignty, country, dependency, colony
+* `admin-2` *polygon* — state, province, republic, ...
+* `admin-3` *polygon* — county, ...
+* `settlement` *point* — city, town, village
 
-### Limitation of Liability
+### (3) Time periods (GeoJSON)
 
-1. To the extent permitted by applicable law, You provide the Contents 'as is' without warranty of any kind, either express or implied, including without limitation any warranties or conditions of merchantability, fitness for a particular purpose, or otherwise.
-2. Subject to any liability that may not be excluded or limited by law, neither You nor Atlastory shall be liable for any special, indirect, incidental, consequential, punitive, or exemplary damages under this Agreement, however caused and under any theory of liability. This exclusion applies even if either party has been advised of the possibility of such damages.
+* Must be in __GeoJSON__ format (projection is always WGS 84 (4326))
+* Periods can be __any length__ in 1-year intervals.
+* Years begin and end on __January 1__. So the file `1940-1945` goes from January 1, 1940 to January 1, 1945. The file `1945-1946` spans the one-year period January 1, 1945 to January 1, 1946.
+* Periods can be changed to whatever necessary as the map data changes over time.
+* Periods should __never overlap__ within the same type.
+	* Correct:  `1850-1855`, `1855-1861`, `1861-1864`, `1875-1880`
+	* Incorrect: `1850-1855`, `1853-1861`, `1860-1864`, `1875-1880`
 
-### Miscellaneous
+#### Common data attributes:
 
-This Agreement shall be governed by English law without regard to principles of conflict of law. You agree that the United Nations Convention on Contracts for the International Sale of Goods (1980) is hereby excluded in its entirety from application to this Agreement. In the event of invalidity of any provision of this Agreement, the parties agree that such invalidity shall not affect the validity of the remaining portions of this Agreement. This is the entire agreement between You and Atlastory which supersedes any prior agreement, whether written, oral or other, relating to the subject matter of this agreement.
+* `name` full name
+* `name_md` medium name abbreviation <= 17 characters
+* `name_sm` short name abbreviation <=5 characters
+* `type` see '__Shape types__' above (sovereignty, city, etc.)
+* `sovereignty` full name of sovereign country (if applicable)
+* `description`
+* `date_start` specific start date of object (if present)
+* `date_end` specific end date of object (if present)
 
-In addition to the above agreement, I consider my contributions to be in the Public Domain.
+
 
