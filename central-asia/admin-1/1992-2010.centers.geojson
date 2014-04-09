@@ -1,0 +1,251 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ukraine",
+				"name_sm": "Ukr.",
+				"type": "sovereignty",
+				"sovereignty": "Ukraine",
+				"_length": 7,
+				"_size": 2
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [31.38574765033267,48.997369043551]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tajikistan",
+				"name_sm": "Tjk.",
+				"type": "sovereignty",
+				"sovereignty": "Tajikistan",
+				"_length": 10,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [71.0158341125887,38.52988570465323]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Turkmenistan",
+				"name_sm": "Turkm.",
+				"type": "sovereignty",
+				"sovereignty": "Turkmenistan",
+				"_length": 12,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [59.37596072158407,39.115933894881415]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Georgia",
+				"name_sm": "Geo.",
+				"type": "sovereignty",
+				"sovereignty": "Georgia",
+				"_length": 7,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [43.50752637515779,42.16880075856621]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Baikonur",
+				"name_sm": "Bayk.",
+				"type": "lease",
+				"sovereignty": "Russia",
+				"_length": 8,
+				"_size": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [63.38389704184427,45.978330069561494]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kazakhstan",
+				"name_sm": "Kaz.",
+				"type": "sovereignty",
+				"sovereignty": "Kazakhstan",
+				"_length": 10,
+				"_size": 1
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [67.29596463709706,48.16065183292686]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kyrgyzstan",
+				"name_sm": "Kgz.",
+				"type": "sovereignty",
+				"sovereignty": "Kyrgyzstan",
+				"_length": 10,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [74.54166944824972,41.46191868905783]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Uzbekistan",
+				"name_sm": "Uzb.",
+				"type": "sovereignty",
+				"sovereignty": "Uzbekistan",
+				"_length": 10,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [63.13990894874888,41.75603595832639]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Estonia",
+				"name_sm": "Est.",
+				"type": "sovereignty",
+				"sovereignty": "Estonia",
+				"_length": 7,
+				"_size": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.535793169697534,58.671014125759555]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Belarus",
+				"name_sm": "Bela.",
+				"type": "sovereignty",
+				"sovereignty": "Belarus",
+				"_length": 7,
+				"_size": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.033566459759548,53.53188048205625]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Moldova",
+				"name_sm": "Mda.",
+				"type": "sovereignty",
+				"sovereignty": "Moldova",
+				"_length": 7,
+				"_size": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.461397116362104,47.19510139192008]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lithuania",
+				"name_sm": "Lith.",
+				"type": "sovereignty",
+				"sovereignty": "Lithuania",
+				"_length": 9,
+				"_size": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.88824886308002,55.327023613155575]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Latvia",
+				"name_sm": "Lat.",
+				"type": "sovereignty",
+				"sovereignty": "Latvia",
+				"_length": 6,
+				"_size": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.908622317789675,56.851819457395244]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Russia",
+				"name_sm": "Rus.",
+				"type": "sovereignty",
+				"sovereignty": "Russia",
+				"_length": 6,
+				"_size": 0
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [76.28928288388686,59.91589864000504]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Armenia",
+				"name_sm": "Arm.",
+				"type": "sovereignty",
+				"sovereignty": "Armenia",
+				"_length": 7,
+				"_size": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [44.93230121812846,40.28813415391146]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Azerbaijan",
+				"name_sm": "Aze.",
+				"type": "sovereignty",
+				"sovereignty": "Azerbaijan",
+				"_length": 10,
+				"_size": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [47.54211125964177,40.28911898662457]
+			}
+		}
+	]
+}

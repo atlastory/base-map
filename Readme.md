@@ -9,6 +9,8 @@ This is the Atlastory Base Map, a political and cultural map that spans human hi
 
 Please read the [Contributor Agreement](Agreement.md) before making any contributions. Below is more detail on the structure of this repo and the base map in general.
 
+#### [Best practices >>](Best-Practices.md)
+
 ### Structure:
 
 ```
@@ -51,7 +53,7 @@ Each region will later be combined to form a global map. So the split doesn't ne
 * `admin-1` *polygon* — sovereignty, country, dependency, colony
 * `admin-2` *polygon* — state, province, republic, ...
 * `admin-3` *polygon* — county, ...
-* `settlement` *point* — city, town, village
+* `settlement` *point* — city, capital-[1-3], town, village
 
 ### (3) Time periods (GeoJSON)
 
@@ -71,8 +73,8 @@ Each region will later be combined to form a global map. So the split doesn't ne
 * `type` see '__Shape types__' above (sovereignty, city, etc.)
 * `sovereignty` full name of sovereign country (if applicable)
 * `description`
-* `date_start` specific start date of object (if present)
-* `date_end` specific end date of object (if present)
+* `date_start` specific start date YYYY-MM-DD of object (if present)
+* `date_end` specific end date YYYY-MM-DD of object (if present)
 
 
 
