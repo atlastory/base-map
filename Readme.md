@@ -9,6 +9,8 @@ This is the Atlastory Base Map, a political and cultural map that spans human hi
 
 Please read the [Contributor Agreement](Agreement.md) before making any contributions. Below is more detail on the structure of this repo and the base map in general.
 
+#### [Best practices >>](Best-Practices.md)
+
 ### Structure:
 
 ```
