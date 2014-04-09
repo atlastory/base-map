@@ -1,0 +1,27 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "United Socialist Soviet Republic",
+				"type": "Sovereign country",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_md": "U.S.S.R.",
+				"name_sm": "U.S.S.R.",
+				"_size": 0,
+				"_color": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [65.68986746593269,57.30449816247958]
+			}
+		}
+	]
+}

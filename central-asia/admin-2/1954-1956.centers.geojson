@@ -1,0 +1,249 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ukrainian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Ukr.",
+				"name_md": "Ukrainian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [31.255306340729195,49.16007801381647]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Turkmen Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Turkm.",
+				"name_md": "Turkmen S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [59.375960737837694,39.11593385866038]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tajik Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Tjk.",
+				"name_md": "Tajik S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [71.01583388385326,38.529885701752676]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Georgian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Geo.",
+				"name_md": "Georgian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [43.50752630002384,42.16880078844112]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kirghiz Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Krgz.",
+				"name_md": "Kirghiz S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [74.54166932218136,41.461918707539986]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Estonian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Est.",
+				"name_md": "Estonian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.535793169697875,58.67101412575771]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Uzbek Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Uzb.",
+				"name_md": "Uzbek S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [63.13990878581627,41.75603601837234]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Moldovian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Mda.",
+				"name_md": "Moldovian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.46139707391194,47.19510141672763]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Byelorussian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Blrs.",
+				"name_md": "Byelorussian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.03356645975947,53.53188048205003]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Latvian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Lat.",
+				"name_md": "Latvian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.908622317789717,56.85181945739235]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lithuanian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Lith.",
+				"name_md": "Lithuanian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.88824886308008,55.327023613151404]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kazakh Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Kaz",
+				"name_md": "Kazakh S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [67.28699918243039,48.15565059046545]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Karelo-Finnish Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soveit Republic",
+				"name_sm": "KF SSR",
+				"name_md": "Karelo-Finish S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.12442529789642,63.54994746909312]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Armenian Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Arm.",
+				"name_md": "Armenian S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [44.93230124530891,40.28813411953776]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Azerbaijan Soviet Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Azer.",
+				"name_md": "Azerbaijan S.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [47.54211132386908,40.28911890729215]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Russian Soviet Federative Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Rus. SFSR",
+				"name_md": "Russian S.F.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [49.36083294277967,60.163122489479534]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Russian Soviet Federative Socialist Republic",
+				"type": "republic",
+				"sovereignty": "United Socialist Soviet Republic",
+				"name_sm": "Rus. SFSR",
+				"name_md": "Russian S.F.S.R."
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [97.31605682337734,61.949689653658666]
+			}
+		}
+	]
+}
