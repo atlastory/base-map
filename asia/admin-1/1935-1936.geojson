@@ -10,7 +10,7 @@
 				"date_start": "1819/01/06",
 				"date_end": "1942/02/15",
 				"_length": 9,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -26,7 +26,7 @@
 				"date_start": "1867/01/01",
 				"date_end": "1946/01/01",
 				"_length": 17,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -42,7 +42,7 @@
 				"date_start": "1926/01/01",
 				"date_end": "1973/01/01",
 				"_length": 22,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -58,7 +58,7 @@
 				"date_start": "1858/01/01",
 				"date_end": "1947/01/01",
 				"_length": 13,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -74,7 +74,7 @@
 				"date_start": "1858/01/01",
 				"date_end": "1947/01/01",
 				"_length": 13,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -90,7 +90,7 @@
 				"date_start": "1510/01/01",
 				"date_end": "1967/12/19",
 				"_length": 3,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -106,7 +106,7 @@
 				"date_start": "1783/06/10",
 				"date_end": "1954/08/11",
 				"_length": 23,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -122,7 +122,7 @@
 				"date_start": "1539/01/01",
 				"date_end": "1961/12/19",
 				"_length": 13,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -138,7 +138,7 @@
 				"date_start": "1893/01/01",
 				"date_end": "1945/01/01",
 				"_length": 16,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -154,7 +154,7 @@
 				"date_start": "1816/01/01",
 				"date_end": null,
 				"_length": 16,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -170,7 +170,7 @@
 				"date_start": "1909/01/01",
 				"date_end": null,
 				"_length": 15,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -186,7 +186,7 @@
 				"date_start": "1920/01/01",
 				"date_end": "1942/01/01",
 				"_length": 17,
-				"_color": "3"
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
