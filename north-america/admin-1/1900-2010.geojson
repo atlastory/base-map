@@ -11,7 +11,7 @@
 				"sovereignty": "United States of America",
 				"name_md": "United States",
 				"_length": 24,
-				"_color": 1
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -28,7 +28,7 @@
 				"sovereignty": "Canada",
 				"name_md": "Canada",
 				"_length": 6,
-				"_color": 1
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -45,7 +45,7 @@
 				"sovereignty": "Mexico",
 				"name_md": "Mexico",
 				"_length": 6,
-				"_color": 1
+				"_color": 4
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -62,7 +62,7 @@
 				"sovereignty": "France",
 				"name_md": "St. Pierre & Miq.",
 				"_length": 25,
-				"_color": 1
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -96,7 +96,7 @@
 				"sovereignty": "United Kingdom",
 				"name_md": "Bermuda",
 				"_length": 7,
-				"_color": 1
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",

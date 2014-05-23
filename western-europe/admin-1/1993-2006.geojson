@@ -13,7 +13,7 @@
 				"sov_a3": "ALB",
 				"name": "Albania",
 				"_length": 7,
-				"_color": 3
+				"_color": 2
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -26,7 +26,7 @@
 				"sov_a3": "FI1",
 				"name": "Aland",
 				"_length": 5,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39,7 +39,7 @@
 				"sov_a3": "AND",
 				"name": "Andorra",
 				"_length": 7,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -52,7 +52,7 @@
 				"sov_a3": "AUT",
 				"name": "Austria",
 				"_length": 7,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -65,7 +65,7 @@
 				"sov_a3": "BEL",
 				"name": "Belgium",
 				"_length": 7,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -78,7 +78,7 @@
 				"sov_a3": "BGR",
 				"name": "Bulgaria",
 				"_length": 8,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -104,7 +104,7 @@
 				"sov_a3": "CHE",
 				"name": "Switzerland",
 				"_length": 11,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -130,7 +130,7 @@
 				"sov_a3": "DEU",
 				"name": "Germany",
 				"_length": 7,
-				"_color": 3
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -143,7 +143,7 @@
 				"sov_a3": "DN1",
 				"name": "Denmark",
 				"_length": 7,
-				"_color": 3
+				"_color": 1
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -156,7 +156,7 @@
 				"sov_a3": "ESP",
 				"name": "Spain",
 				"_length": 5,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -169,7 +169,7 @@
 				"sov_a3": "FI1",
 				"name": "Finland",
 				"_length": 7,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -182,7 +182,7 @@
 				"sov_a3": "FR1",
 				"name": "France",
 				"_length": 6,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -195,7 +195,7 @@
 				"sov_a3": "DN1",
 				"name": "Faeroe Is.",
 				"_length": 10,
-				"_color": 3
+				"_color": 1
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -208,7 +208,7 @@
 				"sov_a3": "GB1",
 				"name": "United Kingdom",
 				"_length": 14,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -221,7 +221,7 @@
 				"sov_a3": "GB1",
 				"name": "Guernsey",
 				"_length": 8,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -247,7 +247,7 @@
 				"sov_a3": "GRC",
 				"name": "Greece",
 				"_length": 6,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -260,7 +260,7 @@
 				"sov_a3": "HRV",
 				"name": "Croatia",
 				"_length": 7,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -273,7 +273,7 @@
 				"sov_a3": "HUN",
 				"name": "Hungary",
 				"_length": 7,
-				"_color": 3
+				"_color": 2
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -286,7 +286,7 @@
 				"sov_a3": "GB1",
 				"name": "Isle of Man",
 				"_length": 11,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -312,7 +312,7 @@
 				"sov_a3": "ISL",
 				"name": "Iceland",
 				"_length": 7,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -325,7 +325,7 @@
 				"sov_a3": "ITA",
 				"name": "Italy",
 				"_length": 5,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -338,7 +338,7 @@
 				"sov_a3": "GB1",
 				"name": "Jersey",
 				"_length": 6,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -351,7 +351,7 @@
 				"sov_a3": "LIE",
 				"name": "Liechtenstein",
 				"_length": 13,
-				"_color": 3
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -364,7 +364,7 @@
 				"sov_a3": "LUX",
 				"name": "Luxembourg",
 				"_length": 10,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -377,7 +377,7 @@
 				"sov_a3": "MCO",
 				"name": "Monaco",
 				"_length": 6,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -390,7 +390,7 @@
 				"sov_a3": "MKD",
 				"name": "Macedonia",
 				"_length": 9,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -403,7 +403,7 @@
 				"sov_a3": "MLT",
 				"name": "Malta",
 				"_length": 5,
-				"_color": 3
+				"_color": 6
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -416,7 +416,7 @@
 				"sov_a3": "NL1",
 				"name": "Netherlands",
 				"_length": 11,
-				"_color": 3
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -429,7 +429,7 @@
 				"sov_a3": "NOR",
 				"name": "Norway",
 				"_length": 6,
-				"_color": 3
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -442,7 +442,7 @@
 				"sov_a3": "POL",
 				"name": "Poland",
 				"_length": 6,
-				"_color": 3
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -455,7 +455,7 @@
 				"sov_a3": "PRT",
 				"name": "Portugal",
 				"_length": 8,
-				"_color": 3
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -468,7 +468,7 @@
 				"sov_a3": "ROU",
 				"name": "Romania",
 				"_length": 7,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -494,7 +494,7 @@
 				"sov_a3": "SVK",
 				"name": "Slovakia",
 				"_length": 8,
-				"_color": 3
+				"_color": 1
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -507,7 +507,7 @@
 				"sov_a3": "SVN",
 				"name": "Slovenia",
 				"_length": 8,
-				"_color": 3
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -520,7 +520,7 @@
 				"sov_a3": "SWE",
 				"name": "Sweden",
 				"_length": 6,
-				"_color": 3
+				"_color": 4
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -533,7 +533,7 @@
 				"sov_a3": "VAT",
 				"name": "Vatican",
 				"_length": 7,
-				"_color": 3
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -546,7 +546,7 @@
 				"sov_a3": "SRB",
 				"name": "Serbia and Montenegro",
 				"_length": 21,
-				"_color": 3
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",

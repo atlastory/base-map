@@ -10,11 +10,13 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Portugal",
 				"name_sm": "Port.",
 				"type": "sovereignty",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 8,
-				"_color": 4
+				"_color": 2,
+				"sovereignty": "Portugal"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -24,11 +26,13 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Italy",
 				"name_sm": "Italy",
 				"type": "sovereignty",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 5,
-				"_color": 4
+				"_color": 4,
+				"sovereignty": "Italy"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38,11 +42,13 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "France",
 				"name_sm": "Fr.",
 				"type": "country",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 6,
-				"_color": 4
+				"_color": 7,
+				"sovereignty": "France"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -52,11 +58,13 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Switzerland",
 				"name_sm": "Switz.",
 				"type": "sovereignty",
-				"_label_siz": 4,
+				"_label_size": 4,
 				"_length": 11,
-				"_color": 4
+				"_color": 5,
+				"sovereignty": "Switzerland"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -66,11 +74,13 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Jersey",
 				"name_sm": "Jey.",
 				"type": "country",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 6,
-				"_color": 4
+				"_color": 5,
+				"sovereignty": "United Kingdom"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -81,10 +91,12 @@
 			"type": "Feature",
 			"properties": {
 				"name_sm": "Faeroe Is.",
-				"type": "Dependency",
-				"_label_siz": 6,
+				"type": "dependency",
+				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 1,
+				"name": "Faeroe Islands",
+				"sovereignty": "Denmark"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -96,9 +108,11 @@
 			"properties": {
 				"name_sm": "And.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 7,
-				"_color": 4
+				"_color": 4,
+				"name": "Andorra",
+				"sovereignty": "Andorra"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -110,9 +124,11 @@
 			"properties": {
 				"name_sm": "Guern.",
 				"type": "country",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 8,
-				"_color": 4
+				"_color": 5,
+				"name": "Guernsey",
+				"sovereignty": "United Kingdom"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -124,9 +140,11 @@
 			"properties": {
 				"name_sm": "Aust.",
 				"type": "sovereignty",
-				"_label_siz": 4,
+				"_label_size": 4,
 				"_length": 7,
-				"_color": 4
+				"_color": 7,
+				"name": "Austria",
+				"sovereignty": "Austria"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -138,9 +156,11 @@
 			"properties": {
 				"name_sm": "Belg.",
 				"type": "sovereignty",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 7,
-				"_color": 4
+				"_color": 4,
+				"name": "Belgium",
+				"sovereignty": "Belgium"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -152,9 +172,11 @@
 			"properties": {
 				"name_sm": "Vat.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 7,
-				"_color": 4
+				"_color": 6,
+				"name": "Vatican",
+				"sovereignty": "Vatican"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -166,9 +188,11 @@
 			"properties": {
 				"name_sm": "Nor.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 4,
+				"name": "Norway",
+				"sovereignty": "Norway"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -180,9 +204,11 @@
 			"properties": {
 				"name_sm": "S.M.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 3,
+				"name": "San Marino",
+				"sovereignty": "San Marino"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -194,9 +220,11 @@
 			"properties": {
 				"name_sm": "Liech.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 13,
-				"_color": 4
+				"_color": 6,
+				"name": "Liechtinstein",
+				"sovereignty": "Liechtinstein"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -208,9 +236,11 @@
 			"properties": {
 				"name_sm": "Lux.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 5,
+				"name": "Luxembourg",
+				"sovereignty": "Luxembourg"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -222,9 +252,11 @@
 			"properties": {
 				"name_sm": "Den.",
 				"type": "country",
-				"_label_siz": 4,
+				"_label_size": 4,
 				"_length": 7,
-				"_color": 4
+				"_color": 1,
+				"name": "Denmark",
+				"sovereignty": "Denmark"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -236,9 +268,11 @@
 			"properties": {
 				"name_sm": "Hun.",
 				"type": "sovereignty",
-				"_label_siz": 5,
+				"_label_size": 5,
 				"_length": 7,
-				"_color": 4
+				"_color": 2,
+				"name": "Hungary",
+				"sovereignty": "Hungary"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -250,9 +284,11 @@
 			"properties": {
 				"name_sm": "IoMan",
 				"type": "country",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 11,
-				"_color": 4
+				"_color": 5,
+				"name": "Isle of Man",
+				"sovereignty": "United Kingdom"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -264,9 +300,11 @@
 			"properties": {
 				"name_sm": "Swe.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 4,
+				"name": "Sweden",
+				"sovereignty": "Sweden"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -278,9 +316,11 @@
 			"properties": {
 				"name_sm": "Mco.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 6,
-				"_color": 4
+				"_color": 4,
+				"name": "Monaco",
+				"sovereignty": "Monaco"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -292,9 +332,11 @@
 			"properties": {
 				"name_sm": "Neth.",
 				"type": "country",
-				"_label_siz": 5,
+				"_label_size": 5,
 				"_length": 11,
-				"_color": 4
+				"_color": 5,
+				"name": "Netherlands",
+				"sovereignty": "Netherlands"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -306,9 +348,11 @@
 			"properties": {
 				"name_sm": "Ire.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 3,
+				"name": "Ireland",
+				"sovereignty": "Ireland"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -320,9 +364,11 @@
 			"properties": {
 				"name_sm": "Sp.",
 				"type": "sovereignty",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 5,
-				"_color": 4
+				"_color": 5,
+				"name": "Spain",
+				"sovereignty": "Spain"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -334,9 +380,11 @@
 			"properties": {
 				"name_sm": "Pol.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 7,
+				"name": "Poland",
+				"sovereignty": "Poland"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -348,9 +396,11 @@
 			"properties": {
 				"name_sm": "Iceland",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 4,
+				"name": "Iceland",
+				"sovereignty": "Iceland"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -362,9 +412,11 @@
 			"properties": {
 				"name_sm": "Rom.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 4,
+				"name": "Romania",
+				"sovereignty": "Romania"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -376,9 +428,11 @@
 			"properties": {
 				"name_sm": "Alb.",
 				"type": "sovereignty",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 7,
-				"_color": 4
+				"_color": 2,
+				"name": "Albania",
+				"sovereignty": "Albania"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -390,9 +444,11 @@
 			"properties": {
 				"name_sm": "Bulg.",
 				"type": "sovereignty",
-				"_label_siz": 4,
+				"_label_size": 4,
 				"_length": 8,
-				"_color": 4
+				"_color": 7,
+				"name": "Bulgaria",
+				"sovereignty": "Bulgaria"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -404,9 +460,11 @@
 			"properties": {
 				"name_sm": "Aland",
 				"type": "country",
-				"_label_siz": 6,
+				"_label_size": 6,
 				"_length": 5,
-				"_color": 4
+				"_color": 7,
+				"name": "Aland",
+				"sovereignty": "Finland"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -418,9 +476,11 @@
 			"properties": {
 				"name_sm": "Greece",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 5,
+				"name": "Greece",
+				"sovereignty": "Greece"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -432,9 +492,11 @@
 			"properties": {
 				"name_sm": "Fin.",
 				"type": "country",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 7,
+				"name": "Finland",
+				"sovereignty": "Finland"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -446,9 +508,11 @@
 			"properties": {
 				"name_sm": "Yugo.",
 				"type": "sovereignty",
-				"_label_siz": 5,
+				"_label_size": 5,
 				"_length": 10,
-				"_color": 4
+				"_color": 6,
+				"name": "Yugoslavia",
+				"sovereignty": "Yugoslavia"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -460,9 +524,11 @@
 			"properties": {
 				"name_sm": "Czchs.",
 				"type": "sovereignty",
-				"_label_siz": 5,
+				"_label_size": 5,
 				"_length": 14,
-				"_color": 4
+				"_color": 5,
+				"name": "Czechoslovakia",
+				"sovereignty": "Czechoslovakia"
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -472,11 +538,13 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name_sm": "E Germ",
+				"name_sm": "E Germ.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 6,
+				"name": "East Germany",
+				"sovereignty": "East Germany"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -488,9 +556,11 @@
 			"properties": {
 				"name_sm": "W Germ.",
 				"type": "sovereignty",
-				"_label_siz": 3,
+				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 2,
+				"name": "West Germany",
+				"sovereignty": "West Germany"
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -502,9 +572,11 @@
 			"properties": {
 				"name_sm": "U.K.",
 				"type": "country",
-				"_label_siz": 2,
+				"_label_size": 2,
 				"_length": 14,
-				"_color": 4
+				"_color": 5,
+				"name": "United Kingdom",
+				"sovereignty": "United Kingdom"
 			},
 			"geometry": {
 				"type": "MultiPolygon",

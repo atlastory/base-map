@@ -16,7 +16,7 @@
 				"sovereignty": "Portugal",
 				"_label_size": 2,
 				"_length": 8,
-				"_color": 4
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -48,7 +48,7 @@
 				"sovereignty": "France",
 				"_label_size": 2,
 				"_length": 6,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -64,7 +64,7 @@
 				"sovereignty": "Switzerland",
 				"_label_size": 4,
 				"_length": 11,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -80,7 +80,7 @@
 				"sovereignty": "United Kingdom",
 				"_label_size": 6,
 				"_length": 6,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -96,7 +96,7 @@
 				"sovereignty": "Denmark",
 				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 1
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -128,7 +128,7 @@
 				"sovereignty": "United Kingdom",
 				"_label_size": 2,
 				"_length": 14,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -144,7 +144,7 @@
 				"sovereignty": "United Kingdom",
 				"_label_size": 6,
 				"_length": 8,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -160,7 +160,7 @@
 				"sovereignty": "Austria",
 				"_label_size": 4,
 				"_length": 7,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -192,7 +192,7 @@
 				"sovereignty": "Vatican",
 				"_label_size": 6,
 				"_length": 7,
-				"_color": 4
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -208,7 +208,7 @@
 				"sovereignty": "Norway",
 				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -224,7 +224,7 @@
 				"sovereignty": "San Marino",
 				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 3
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -240,7 +240,7 @@
 				"sovereignty": "Liechtenstein",
 				"_label_size": 6,
 				"_length": 13,
-				"_color": 4
+				"_color": 6
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -256,7 +256,7 @@
 				"sovereignty": "Germany",
 				"_label_size": 2,
 				"_length": 7,
-				"_color": 4
+				"_color": 2
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -272,7 +272,7 @@
 				"sovereignty": "Luxembourg",
 				"_label_size": 6,
 				"_length": 10,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -288,7 +288,7 @@
 				"sovereignty": "Denmark",
 				"_label_size": 4,
 				"_length": 7,
-				"_color": 4
+				"_color": 1
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -304,7 +304,7 @@
 				"sovereignty": "Hungary",
 				"_label_size": 5,
 				"_length": 7,
-				"_color": 4
+				"_color": 2
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -320,7 +320,7 @@
 				"sovereignty": "United Kingdom",
 				"_label_size": 6,
 				"_length": 11,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -368,7 +368,7 @@
 				"sovereignty": "Netherlands",
 				"_label_size": 5,
 				"_length": 11,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -384,7 +384,7 @@
 				"sovereignty": "Ireland",
 				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 3
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -400,7 +400,7 @@
 				"sovereignty": "Spain",
 				"_label_size": 2,
 				"_length": 5,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -416,7 +416,7 @@
 				"sovereignty": "Poland",
 				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -464,7 +464,7 @@
 				"sovereignty": "Albania",
 				"_label_size": 6,
 				"_length": 7,
-				"_color": 4
+				"_color": 2
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -480,7 +480,7 @@
 				"sovereignty": "Bulgaria",
 				"_label_size": 4,
 				"_length": 8,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -496,7 +496,7 @@
 				"sovereignty": "Finland",
 				"_label_size": 6,
 				"_length": 5,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -512,7 +512,7 @@
 				"sovereignty": "Greece",
 				"_label_size": 3,
 				"_length": 6,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -528,7 +528,7 @@
 				"sovereignty": "Finland",
 				"_label_size": 3,
 				"_length": 7,
-				"_color": 4
+				"_color": 7
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -544,7 +544,7 @@
 				"sovereignty": "Yugoslavia",
 				"_label_size": 5,
 				"_length": 10,
-				"_color": 4
+				"_color": 6
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -554,11 +554,12 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Malta",
 				"name_sm": "Malta",
 				"type": "sovereignty",
 				"_label_size": 6,
 				"_length": 13,
-				"_color": 4
+				"_color": 6
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -574,7 +575,7 @@
 				"sovereignty": "Czechoslovakia",
 				"_label_size": 5,
 				"_length": 14,
-				"_color": 4
+				"_color": 5
 			},
 			"geometry": {
 				"type": "Polygon",

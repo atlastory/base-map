@@ -75,6 +75,14 @@ Each region will later be combined to form a global map. So the split doesn't ne
 * `description`
 * `date_start` specific start date YYYY-MM-DD of object (if present)
 * `date_end` specific end date YYYY-MM-DD of object (if present)
+* `_color` (required for `admin-1` shape type) specify the number representing the color of the sovereignty's tint band
+    1. Turquoise
+    2. Green
+    3. Lime
+    4. Yellow
+    5. Orange
+    6. Red
+    7. Purple
 
 
 
